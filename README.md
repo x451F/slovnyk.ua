@@ -28,6 +28,14 @@ Telegram bot for looking up Ukrainian words on slovnyk.ua.
 3. Copy .env.example to .env
 4. Add BOT_TOKEN
 
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements-dev.txt
+python -m pytest
+```
+
 ## Development plan
 
 1. Parser fixtures
